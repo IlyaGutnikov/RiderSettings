@@ -1,0 +1,10 @@
+<keymap version="1" name="Visual Studio OSX copy" parent="Visual Studio OSX">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="alt space" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+</keymap>
