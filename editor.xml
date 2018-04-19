@@ -13,6 +13,11 @@
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;LOGEVENT)(\W|$)(.*)" />
+    <pattern useCustomColors="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;HARDCODE)(\W|$)(.*)">
+      <option name="FOREGROUND" value="cf10d4" />
+      <option name="FONT_TYPE" value="1" />
+      <option name="ERROR_STRIPE_COLOR" value="cf10d4" />
+    </pattern>
     <filter name="ALL" />
   </component>
 </application>
