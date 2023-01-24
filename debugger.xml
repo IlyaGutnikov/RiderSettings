@@ -4,5 +4,17 @@
       <option name="valueLookupDelay" value="150" />
     </data-views>
     <general />
+    <debuggers>
+      <debugger id="dotnet_debugger">
+        <configuration>
+          <option name="breakOnUserUnhandledExceptions" value="true" />
+        </configuration>
+      </debugger>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <nt-symbol-settings />
+        </configuration>
+      </debugger>
+    </debuggers>
   </component>
 </application>
